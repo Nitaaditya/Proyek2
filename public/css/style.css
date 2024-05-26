@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #ABD6D2;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: keania one;
+}
+
+.nav-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.footer-top{
+    background-color: #E0D257;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+.footer-top-content{
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.footer-bottom{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.black-text{
+    color: #000000;
+}
+.white-link{
+    color: #fff;
+    text-decoration: none;
+}
+.white-link:hover{
+    color: blue;
+    text-decoration: dashed;
+}
